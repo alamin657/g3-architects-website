@@ -1,15 +1,30 @@
+*{
+    margin: 0px;
+}
+/* header{
+    margin: 0;
+} */
 .architecture-bg-color{
     background: rgba(255, 144, 14, 0.1);
 }
 /* nav architecture */
 .heading-architec{
     margin-left: 230px;
-    margin-top: 50px;
+    margin-top: 10px;
     color: #131313;
 }
-/* .list-container{
-    text-decoration: none;
-} */
+
+.architecture{
+    display: flex;
+    gap:300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.list-container{
+    margin-top: 20px;
+}
 .list-item{
     display: flex;
     list-style: none;
@@ -20,12 +35,16 @@
     margin-right: 240px;   
 }
 /* brand new group */
+.brand-container{
+    padding: 0 100px 100px 100px;
+}
 .heading-paragraph-text{
     text-align: center;
     margin-top: 80px;
 }
 .heading-color{
     color: #131313;
+    font-size: 30px;
 }
 .btn-primary{
     font-size: 20px;
@@ -61,6 +80,7 @@
 }
 #color-dark{
     color:#727272;
+    margin-top: 40px;
 }
 #orange{
     color: #FF900E;
@@ -68,6 +88,11 @@
 /* Features you will love & enjoy */
 .architec-section{
     margin-top: 170px;
+}
+h4{
+    border-left: 1px solid #FF900E;
+    padding: 4px 4px;
+    font-size: 30px;
 }
 .architec-container{
     display: grid;
@@ -89,4 +114,74 @@
     background: #FFFFFF;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
 }
-
+.btn-secondary{
+    color:#FFFFFF;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+}
+.button-second{
+    position: relative;
+    bottom: 50px;
+    right:50px;
+}
+/* Some Effects */
+.some-effect{
+    margin-left: 240px;
+}
+/* awesome side */
+.container-fact{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 280px;
+   margin-top: 100px;
+}
+.award-winnigns{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 20px;   
+}
+.number{
+    font-size: 25px;
+    color: #424242;
+}
+.award-text{
+    font-size: 20px;
+    color: #727272;   
+}
+/* Our sponspors */
+.heading-paragraph-spons{
+    margin-top: 150px;
+    text-align: center;
+    
+}
+.sponspors{
+    margin-top: 50px;
+    margin-left: 240px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+/* Extra section(architec) */
+.architecture{
+    margin-top: 50px;
+    text-align: center;
+}
+/* footer section */
+.footer-text{
+    margin: 140px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 40px;
+    color: #424242;
+    background:  #FFF4E7;
+}
+/* .footer-bg-color{
+    width: 1440px;
+    height: 100px;
+    border-radius: 8px;
+    background: #FFF4E7;
+} */
