@@ -43,3 +43,25 @@
     margin-top: 50px;
     
 }
+/* business man */
+.business-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    margin-left: 250px;
+}
+.business-man-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+    gap: 25px;
+}
+.business-man-text{
+    margin-top: 250px;
+}
+#color-dark{
+    color:#727272;
+}
+#orange{
+    color: #FF900E;
+}
