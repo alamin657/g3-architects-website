@@ -48,7 +48,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 70px;
-    margin-left: 250px;
+    margin-left: 250px;   
 }
 .business-man-img{
     display: grid;
@@ -65,3 +65,28 @@
 #orange{
     color: #FF900E;
 }
+/* Features you will love & enjoy */
+.architec-section{
+    margin-top: 170px;
+}
+.architec-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.blogs{
+    margin-left: 200px;
+
+  
+}
+.blog2,.blog3, .blog4, .blog5{
+    margin-bottom: 100px;
+}
+.blog2,.blog3, .blog4, .blog5 {
+    padding: 5px;
+    margin:30px 30px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+
